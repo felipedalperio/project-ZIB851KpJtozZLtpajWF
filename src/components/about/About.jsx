@@ -1,8 +1,9 @@
 import React from 'react';
+import SafeText from './SafeText';
 
 const About = () => {
   return (
-     [object Object]
+    <div>Component content</div>
   );
 };
 
