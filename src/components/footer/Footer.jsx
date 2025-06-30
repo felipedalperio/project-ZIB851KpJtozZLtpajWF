@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    [object Object]
+     [object Object]
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Location = () => {
   return (
-    [object Object]
+     [object Object]
   );
 };
 
