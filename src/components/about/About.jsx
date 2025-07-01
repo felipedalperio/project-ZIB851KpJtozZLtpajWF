@@ -3,7 +3,7 @@ import SafeText from './SafeText';
 
 const About = () => {
   return (
-    <div>Component content</div>
+    <div>Erro ao extrair JSX</div>
   );
 };
 
