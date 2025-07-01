@@ -2,7 +2,7 @@ import React from 'react';
 
 const Menu = () => {
   return (
-    <header className="w-full z-50 shadow-sm backdrop-blur-sm bg-[#ffffff]">
+    <header className="w-full z-50 shadow-sm backdrop-blur-sm bg-[#db0b0b]">
   <div className="container mx-auto px-4 py-4 flex justify-between items-center">
     <a
       href="#"
