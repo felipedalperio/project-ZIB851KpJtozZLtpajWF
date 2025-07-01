@@ -1,5 +1,4 @@
 import React from 'react';
-import SafeText from './SafeText';
 
 const About = () => {
   return (
@@ -21,13 +20,7 @@ const About = () => {
             loading="lazy"
           />
           <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
-            <SafeText
-              text="Fundada em 2005"
-              className="font-playfair text-xl font-semibold"
-              style={{
-                color: '#1c3c34'
-              }}
-            />
+            <span className="font-playfair text-xl font-semibold">Fundada em 2005</span>
           </div>
         </div>
       </div>
@@ -38,7 +31,7 @@ const About = () => {
             color: '#1c3c34'
           }}
         >
-          <SafeText text="Sobre o Recanto Verde" />
+          <span>Sobre o Recanto Verde</span>
         </h2>
         <div
           className="w-20 h-1 mb-8"
@@ -46,20 +39,8 @@ const About = () => {
             backgroundColor: '#1c3c34'
           }}
         />
-        <SafeText
-          text="A Pousada Recanto Verde nasceu do sonho de oferecer um refúgio especial, onde o aconchego encontra a natureza. Situada em um local privilegiado, nossa pousada combina o charme rústico com o conforto moderno."
-          className="mb-6 text-lg"
-          style={{
-            color: '#374151'
-          }}
-        />
-        <SafeText
-          text="Em meio à exuberante paisagem natural, criamos um ambiente onde cada detalhe foi pensado para proporcionar momentos inesquecíveis. Seja para um fim de semana relaxante ou férias prolongadas, aqui você encontrará o equilíbrio perfeito entre descanso e aventura."
-          className="mb-6 text-lg"
-          style={{
-            color: '#374151'
-          }}
-        />
+        <span className="mb-6 text-lg">A Pousada Recanto Verde nasceu do sonho de oferecer um refúgio especial, onde o aconchego encontra a natureza. Situada em um local privilegiado, nossa pousada combina o charme rústico com o conforto moderno.</span>
+        <span className="mb-6 text-lg">Em meio à exuberante paisagem natural, criamos um ambiente onde cada detalhe foi pensado para proporcionar momentos inesquecíveis. Seja para um fim de semana relaxante ou férias prolongadas, aqui você encontrará o equilíbrio perfeito entre descanso e aventura.</span>
         <div className="grid grid-cols-2 gap-4 mt-8">
           <div
             className="flex flex-col items-center p-4 rounded-lg shadow-md"
@@ -67,20 +48,14 @@ const About = () => {
               backgroundColor: '#ffffff'
             }}
           >
-            <SafeText
-              text="15+"
-              className="font-bold text-3xl mb-2"
-              style={{
-                color: '#1c3c34'
-              }}
-            />
+            <span className="font-bold text-3xl mb-2">15+</span>
             <span
               style={{
                 color: '#4b5563'
               }}
             >
               {' '}
-              <SafeText text="Anos de Experiência" />
+              <span>Anos de Experiência</span>
             </span>
           </div>
           <div
@@ -95,14 +70,14 @@ const About = () => {
                 color: '#1c3c34'
               }}
             >
-              <SafeText text="20" />
+              <span>20</span>
             </span>
             <span
               style={{
                 color: '#4b5563'
               }}
             >
-              <SafeText text="Acomodações" />
+              <span>Acomodações</span>
             </span>
           </div>
         </div>

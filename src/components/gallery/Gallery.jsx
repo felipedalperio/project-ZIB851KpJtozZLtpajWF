@@ -1,5 +1,4 @@
 import React from 'react';
-import SafeText from './SafeText';
 
 const Gallery = () => {
   return (
@@ -15,10 +14,10 @@ const Gallery = () => {
           flex flex-col justify-center items-center"
 >
   <h2 className="text-[30px] md:text-[34px] lg:text-[34px]  font-bold mb-4 text-center">
-    <SafeText text="Nosso Espaço" />
+    <span>Nosso Espaço</span>
   </h2>
   <div className="text-[20px] md:text-[20px] lg:text-[20px]  mb-6 opacity-75 text-center">
-    <SafeText text="- Galeria de fotos -" />
+    <span>- Galeria de fotos -</span>
   </div>
   <div
     className="

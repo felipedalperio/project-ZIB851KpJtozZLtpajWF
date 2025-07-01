@@ -1,25 +1,16 @@
 import React from 'react';
-import SafeText from './SafeText';
 
 const Footer = () => {
   return (
     <footer className="bg-[#1c3c34] text-[#d1d5db] border-t border-[#374151] p-10">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
     <div className="space-y-3">
-      <SafeText
-        text="Recanto Verde"
-        className="text-[#ffffff] text-xl font-bold"
-        tag="h2"
-      />
-      <SafeText
-        text="Seu refúgio de paz e conforto em meio à natureza. Venha vivenciar momentos inesquecíveis no Recanto Verde."
-        className="text-[#d1d5db]"
-        tag="p"
-      />
+      <h2 className="text-[#ffffff] text-xl font-bold">Recanto Verde</h2>
+      <p className="text-[#d1d5db]">Seu refúgio de paz e conforto em meio à natureza. Venha vivenciar momentos inesquecíveis no Recanto Verde.</p>
     </div>
     <div>
       <h3 className="text-[#ffffff] font-semibold mb-2">
-        <SafeText text="Links Rápidos" />
+        <span>Links Rápidos</span>
       </h3>
       <ul className="space-y-1">
         <li>
@@ -27,7 +18,7 @@ const Footer = () => {
             href="#inicio"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Início" />
+            <span>Início</span>
           </a>
         </li>
         <li>
@@ -35,7 +26,7 @@ const Footer = () => {
             href="#sobre"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Sobre Nós" />
+            <span>Sobre Nós</span>
           </a>
         </li>
         <li>
@@ -43,7 +34,7 @@ const Footer = () => {
             href="#acomodacoes"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Acomodações" />
+            <span>Acomodações</span>
           </a>
         </li>
         <li>
@@ -51,7 +42,7 @@ const Footer = () => {
             href="#comodidades"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Comodidades" />
+            <span>Comodidades</span>
           </a>
         </li>
         <li>
@@ -59,7 +50,7 @@ const Footer = () => {
             href="#localizacao"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Localização" />
+            <span>Localização</span>
           </a>
         </li>
         <li>
@@ -67,68 +58,59 @@ const Footer = () => {
             href="#contato"
             className="text-[#d1d5db] hover:text-[#ffffff]"
           >
-            <SafeText text="Reservas" />
+            <span>Reservas</span>
           </a>
         </li>
       </ul>
     </div>
     <div className="space-y-1">
       <h3 className="text-[#ffffff] font-semibold mb-2">
-        <SafeText text="Horários" />
+        <span>Horários</span>
       </h3>
       <p>
-        <SafeText text="Check-in:" />
+        <span>Check-in:</span>
         {' '}
         <strong>
-          <SafeText text="14:00 - 20:00" />
+          <span>14:00 - 20:00</span>
         </strong>
       </p>
       <p>
-        <SafeText text="Check-out:" />
+        <span>Check-out:</span>
         {' '}
         <strong>
-          <SafeText text="até 12:00" />
+          <span>até 12:00</span>
         </strong>
       </p>
       <p>
-        <SafeText text="Recepção:" />
+        <span>Recepção:</span>
         {' '}
         <strong>
-          <SafeText text="07:00 - 22:00" />
+          <span>07:00 - 22:00</span>
         </strong>
       </p>
       <p>
-        <SafeText text="Café da manhã:" />
+        <span>Café da manhã:</span>
         {' '}
         <strong>
-          <SafeText text="07:00 - 10:00" />
+          <span>07:00 - 10:00</span>
         </strong>
       </p>
     </div>
     <div className="space-y-3">
       <h3 className="text-[#ffffff] font-semibold">
-        <SafeText text="Contato" />
+        <span>Contato</span>
       </h3>
       <div className="flex items-start gap-2">
         <i className="fas fa-map-pin text-[#ffffff] mt-1" />
-        <SafeText
-          text="Estrada do Recanto, Km 5, Serra Verde - MG"
-          tag="p"
-        />
+        <p>Estrada do Recanto, Km 5, Serra Verde - MG</p>
       </div>
       <div className="flex items-start gap-2">
         <i className="fas fa-phone text-[#ffffff] mt-1" />
-        <SafeText
-          text="+55 (31) 3333-4444"
-          tag="p"
-        />
+        <p>+55 (31) 3333-4444</p>
       </div>
       <div className="flex items-start gap-2">
         <i className="fas fa-envelope text-[#ffffff] mt-1" />
-        <SafeText
-          text="contato@recantoverde.com.br"
-          tag="p"
-        />
+        <p>contato@recantoverde.com.br</p>
       </div>
     </div>
   </div>
@@ -153,7 +135,7 @@ const Footer = () => {
     </a>
   </div>
   <div className="text-center text-sm text-[#9ca3af] mt-6">
-    <SafeText text="Todos os direitos reservados." />
+    <span>Todos os direitos reservados.</span>
   </div>
 </footer>
   );

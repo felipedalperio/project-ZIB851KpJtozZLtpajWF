@@ -1,5 +1,4 @@
 import React from 'react';
-import SafeText from './SafeText';
 
 const Header = () => {
   return (
@@ -12,10 +11,10 @@ const Header = () => {
 >
   <div className="container mx-auto px-4 text-center text-white">
     <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6">
-      <SafeText text="Bem-vindo à Pousada Recanto Verde" />
+      <span>Bem-vindo à Pousada Recanto Verde</span>
     </h1>
     <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-      <SafeText text="Seu refúgio de paz e conforto em meio à natureza" />
+      <span>Seu refúgio de paz e conforto em meio à natureza</span>
     </p>
     <div className="flex flex-col sm:flex-row justify-center gap-4">
       <a

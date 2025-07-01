@@ -1,5 +1,4 @@
 import React from 'react';
-import SafeText from './SafeText';
 
 const Menu = () => {
   return (
@@ -10,7 +9,7 @@ const Menu = () => {
       className="flex items-center"
     >
       <h1 className="text-2xl md:text-3xl font-playfair font-bold text-[#1e6f3e]">
-        <SafeText text="Recanto Verde" />
+        <span>Recanto Verde</span>
       </h1>
     </a>
     <nav className="hidden md:flex space-x-8 items-center">
@@ -51,7 +50,7 @@ const Menu = () => {
         Contato
       </a>
       <button className="px-4 py-2 rounded bg-[#1e6f3e] text-[#ffffff]">
-        <SafeText text="Reservar Agora" />
+        <span>Reservar Agora</span>
       </button>
     </nav>
     <button
@@ -132,7 +131,7 @@ const Menu = () => {
         Contato
       </a>
       <button className="w-full py-2 rounded  bg-[#1e6f3e] text-[#ffffff]">
-        <SafeText text="Reservar Agora" />
+        <span>Reservar Agora</span>
       </button>
     </div>
   </nav>
